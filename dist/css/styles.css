@@ -1,0 +1,60 @@
+:root {
+    font-size: 16px;
+    font-family: 'Loto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, nav {
+    background-color: #EA5C2B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    font-size: 3em;
+}
+
+.logo {
+    height: 2.5em;
+}
+
+.logo + h1, h1 + .logo {
+    margin-left: 1em;
+}
+
+nav > ul {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    display: flex;
+}
+
+nav > ul > li {
+    font-size: 1.5em;
+    margin: 0 4em;
+}
+
+nav > ul > li:hover {
+    text-decoration: underline;
+    cursor: default;
+}
+
+main {
+    background-color: #F6D860;
+    display: flex;
+    flex: 1;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.25em;
+}
