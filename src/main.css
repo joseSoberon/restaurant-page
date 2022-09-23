@@ -1,0 +1,28 @@
+.inicio {
+    padding: 2rem;
+    color: white;
+    background-color: rgba(100, 100, 100, 0.8);
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.image {
+    width: 420px;
+    justify-self: center;
+    align-self: center;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2 + p {
+    margin-top: 1rem;
+    text-align: justify;
+}

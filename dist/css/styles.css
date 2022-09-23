@@ -38,6 +38,7 @@ nav > ul {
 nav > ul > li {
     font-size: 1.5em;
     margin: 0 4em;
+
 }
 
 nav > ul > li:hover {
@@ -49,6 +50,8 @@ main {
     background-color: #F6D860;
     display: flex;
     flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
