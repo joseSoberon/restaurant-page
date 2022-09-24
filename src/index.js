@@ -1,9 +1,10 @@
 import createMain from "./main";
 import createMenu from "./menu";
+import createLocation from "./ubicacion";
+
 
 let main = document.querySelector("main");
 main.appendChild(createMain())
-console.log(main.firstElementChild.className);
 
 let nav = document.querySelectorAll("li");
 
@@ -17,9 +18,9 @@ nav.forEach(item => {
             main.removeChild(main.firstElementChild);
             main.appendChild(createMenu());
         }
-        else if (item.id == "contact" && main.firstElementChild.className != "menu") {
-            main.removeChild((mainfirstElementChild));
-            main.appendChild(createContact());
+        else if (item.id == "ubicacion" && main.firstElementChild.className != "ubicacion") {
+            main.removeChild((main.firstElementChild));
+            main.appendChild(createLocation());
         }
     })
 })

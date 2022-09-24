@@ -1,0 +1,13 @@
+.location {
+    color: white;
+    background-color: rgba(100, 100, 100, 0.8);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.map {
+    margin-top: 2rem;
+}
