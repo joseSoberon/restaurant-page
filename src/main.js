@@ -1,3 +1,4 @@
+import "./main.css";
 import foodTruck from "./food-image.jpg";
 
 export default function createMain() {

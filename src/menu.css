@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    margin: 1rem 1.5rem;
+    background-color: #95CD41;
+    padding: 1.5rem;
+    width: 275px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.item-description {
+    text-align: center;
+}
+
+.item-image {
+    margin-top: 1rem;
+}
+
+.item-image > img {
+    display: block;
+    width: 100%;
+}

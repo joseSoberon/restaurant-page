@@ -50,6 +50,7 @@ main {
     background-color: #F6D860;
     display: flex;
     flex: 1;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
